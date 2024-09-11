@@ -31,7 +31,7 @@ import { base } from '$app/paths'
                 <p class="mb-12">
                     Contact: contact@jonasolbrich.de
                 </p>
-				<li><a href="{base}/" >Playing Emissions</a></li>
+				<li><a href={base + "/"} >Playing Emissions</a></li>
 			</div>
 		</div>
 	</div>
