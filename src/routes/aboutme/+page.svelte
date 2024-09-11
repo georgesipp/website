@@ -1,3 +1,9 @@
+<script>
+import { base } from '$app/paths'
+
+</script>
+
+
 <div class="flex bg-accent h-full ~xs:~m-2/12 ~xs:~gap-2/8 rounded-lg ~xs:~p-2/12">
 	<div class="ml-2 text-justify">
 		<div>
@@ -25,7 +31,7 @@
                 <p class="mb-12">
                     Contact: contact@jonasolbrich.de
                 </p>
-				<li><a href="/" >Playing Emissions</a></li>
+				<li><a href="{base}/" >Playing Emissions</a></li>
 			</div>
 		</div>
 	</div>
